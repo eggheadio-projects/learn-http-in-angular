@@ -1,5 +1,5 @@
 {
-  "name": "learn-http-in-angular",
+  "name": "02-send-data-via-http-using-angular-httpparams",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {

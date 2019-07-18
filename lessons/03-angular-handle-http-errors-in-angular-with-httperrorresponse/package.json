@@ -1,5 +1,5 @@
 {
-  "name": "learn-http-in-angular",
+  "name": "03-angular-handle-http-errors-in-angular-with-httperrorresponse",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {

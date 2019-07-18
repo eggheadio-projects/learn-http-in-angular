@@ -1,5 +1,5 @@
 {
-  "name": "learn-http-in-angular",
+  "name": "07-fetch-non-json-data-by-specifying-httpclient-responsetype-in-angular",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {

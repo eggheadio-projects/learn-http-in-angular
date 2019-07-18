@@ -1,5 +1,5 @@
 {
-  "name": "learn-http-in-angular",
+  "name": "04-retry-failed-requests-with-rxjs-and-the-httpclient-in-angular",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {

@@ -1,5 +1,5 @@
 {
-  "name": "learn-http-in-angular",
+  "name": "08-type-check-an-http-response-using-the-angular-httpclient-and-typescript",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {

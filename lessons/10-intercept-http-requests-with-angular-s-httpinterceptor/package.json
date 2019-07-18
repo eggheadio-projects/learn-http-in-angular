@@ -1,5 +1,5 @@
 {
-  "name": "learn-http-in-angular",
+  "name": "10-intercept-http-requests-with-angular-s-httpinterceptor",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {

@@ -1,5 +1,5 @@
 {
-  "name": "learn-http-in-angular",
+  "name": "01-angular-fetch-data-from-an-api-using-the-httpclient-in-angular",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {

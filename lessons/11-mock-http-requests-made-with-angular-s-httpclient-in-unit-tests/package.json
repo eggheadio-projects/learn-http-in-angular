@@ -1,5 +1,5 @@
 {
-  "name": "learn-http-in-angular",
+  "name": "11-mock-http-requests-made-with-angular-s-httpclient-in-unit-tests",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
