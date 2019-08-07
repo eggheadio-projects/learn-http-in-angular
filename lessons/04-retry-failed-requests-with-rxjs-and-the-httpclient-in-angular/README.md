@@ -1,3 +1,27 @@
+# Refined Zac's 04 update notes
+Navigate to Angular project folder in terminal
+Run `npx ng new temp-project --minimal`
+  ?Would you like to add Angular routing?
+    Select: NO _(hit enter)_
+  ?Which stylesheet format would you like to use?
+    Select: CSS _(hit enter)_
+`cd` into `temp-project` and `yarn start`
+  _Template works_
+Delete auto-generated /src folder in `temp-project`
+Alt-drag `src` folder to temp project
+Update package.json `name` with numbered lesson slug
+Update Auto-generated `angular.json` references to project with {numbered-lesson-slug}
+**Check for errors - does this run like the lesson?**
+Delete contents in original lesson example folder (this is 04-retry-failed-requests-with-rxjs…)
+mv contents from temp-project to desired lesson folder (not `node_modules`)
+Run in workspace (in actual lesson folder)
+_Ran into errors surrounding RxJS imports (this is expected)_
+yarn add rxjs-compat
+Deal with rxjs import errors
+  Reimported RxJS to v6 standard and updated use of rxjs operators
+Yarn doesn’t install the right version of TypeScript for the whole workspace - how to fix that?
+Try workspace `no hoist`option
+
 # Zac's 04 update notes
 Navigate to Angular project folder in terminal
 
