@@ -43,7 +43,8 @@ Module not found: Error: Can't resolve 'core-js/es6/weak-map' in '/Users/zacjone
 ERROR in /Users/zacjones/Desktop/source/egghead-repos/learn-http-in-angular/node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js
 Module not found: Error: Can't resolve 'core-js/es7/reflect' in '/Users/zacjones/Desktop/source/egghead-repos/learn-http-in-angular/node_modules/@angular-devkit/build-angular/src/angular-cli-files/models'
 
-ERROR in The Angular Compiler requires TypeScript >=3.1.1 and <3.3.0 but 3.3.4000 was found instead.```
+ERROR in The Angular Compiler requires TypeScript >=3.1.1 and <3.3.0 but 3.3.4000 was found instead.
+```
 
 Clear workspace node_modules and reinstall
 
