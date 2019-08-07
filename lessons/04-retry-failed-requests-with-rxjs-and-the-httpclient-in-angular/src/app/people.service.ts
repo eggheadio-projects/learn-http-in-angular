@@ -12,19 +12,20 @@ export class PeopleService {
     return this.http
       // .get('/assets/data/people.json');
       .get('/assets/data/unavailable.json')
-      .retryWhen(err => {
-        let retries = 3;
-
-        return err
-          .delay(1000)
-          .flatMap((err) => {
-            if (retries-- > 0) {
-              return Observable.of(err);
-            } else {
-              return Observable.throw(err);
-            }
-          });
-      });
+      .pipe(
+        retryWhen(err => {
+          let retries = 3;
+          return err.pipe(
+            delay(1500),
+            flatMap(err => {
+              if (retries-- > 0) {
+                return of(err);
+              } else {
+                return throwError(err);
+              }
+            })
+          );
+        })
+      )
   }
-
 }
